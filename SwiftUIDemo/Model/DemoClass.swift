@@ -76,6 +76,7 @@ Swift is an imperative programming language. SwiftUI, however, is proudly claime
 """
 A **View** is the fundamental building block of your application's user interface. You already know that a view is a type that conforms to the *View protocol*.
 
+[⌘ Apple App organization](https://developer.apple.com/documentation/swiftui/app-organization)
 [⌘ Apple documentation](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views)
 [⌘ What Is a View](https://cocoacasts.com/swiftui-fundamentals-what-is-a-view)
 [⌘ Explaning 'some view'](https://www.hackingwithswift.com/books/ios-swiftui/why-does-swiftui-use-some-view-for-its-view-type)
