@@ -11,6 +11,18 @@
 		610A810228F2C21B009FFF9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610A810128F2C21B009FFF9C /* ContentView.swift */; };
 		610A810428F2C21E009FFF9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610A810328F2C21E009FFF9C /* Assets.xcassets */; };
 		610A810828F2C21E009FFF9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610A810728F2C21E009FFF9C /* Preview Assets.xcassets */; };
+		61D9256328FBFDFC00AD4748 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D9256228FBFDFC00AD4748 /* BackgroundView.swift */; };
+		61D9256528FC0D1600AD4748 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D9256428FC0D1600AD4748 /* Shimmer.swift */; };
+		61D9256728FC155900AD4748 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D9256628FC155900AD4748 /* DemoView.swift */; };
+		61D9256928FC182800AD4748 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D9256828FC182800AD4748 /* WelcomeView.swift */; };
+		61D9256E28FE021D00AD4748 /* Splash in Frameworks */ = {isa = PBXBuildFile; productRef = 61D9256D28FE021D00AD4748 /* Splash */; };
+		61D9257028FE021D00AD4748 /* SplashHTMLGen in Frameworks */ = {isa = PBXBuildFile; productRef = 61D9256F28FE021D00AD4748 /* SplashHTMLGen */; };
+		61D9257228FE021D00AD4748 /* SplashImageGen in Frameworks */ = {isa = PBXBuildFile; productRef = 61D9257128FE021D00AD4748 /* SplashImageGen */; };
+		61D9257428FE021D00AD4748 /* SplashMarkdown in Frameworks */ = {isa = PBXBuildFile; productRef = 61D9257328FE021D00AD4748 /* SplashMarkdown */; };
+		61D9257628FE021D00AD4748 /* SplashTokenizer in Frameworks */ = {isa = PBXBuildFile; productRef = 61D9257528FE021D00AD4748 /* SplashTokenizer */; };
+		61D925932901E0B700AD4748 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D925922901E0B700AD4748 /* WebView.swift */; };
+		61D925962901E32400AD4748 /* DemoClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D925952901E32400AD4748 /* DemoClass.swift */; };
+		61D925982904AC6700AD4748 /* Demos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D925972904AC6600AD4748 /* Demos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +32,13 @@
 		610A810328F2C21E009FFF9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		610A810528F2C21E009FFF9C /* SwiftUIDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIDemo.entitlements; sourceTree = "<group>"; };
 		610A810728F2C21E009FFF9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61D9256228FBFDFC00AD4748 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		61D9256428FC0D1600AD4748 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
+		61D9256628FC155900AD4748 /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		61D9256828FC182800AD4748 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		61D925922901E0B700AD4748 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		61D925952901E32400AD4748 /* DemoClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoClass.swift; sourceTree = "<group>"; };
+		61D925972904AC6600AD4748 /* Demos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +46,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D9257428FE021D00AD4748 /* SplashMarkdown in Frameworks */,
+				61D9257228FE021D00AD4748 /* SplashImageGen in Frameworks */,
+				61D9257628FE021D00AD4748 /* SplashTokenizer in Frameworks */,
+				61D9256E28FE021D00AD4748 /* Splash in Frameworks */,
+				61D9257028FE021D00AD4748 /* SplashHTMLGen in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +76,10 @@
 		610A80FE28F2C21B009FFF9C /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				61D9256B28FC188B00AD4748 /* Helper */,
+				61D925942901E30D00AD4748 /* Model */,
+				61D9256A28FC187A00AD4748 /* Views */,
 				610A80FF28F2C21B009FFF9C /* SwiftUIDemoApp.swift */,
-				610A810128F2C21B009FFF9C /* ContentView.swift */,
 				610A810328F2C21E009FFF9C /* Assets.xcassets */,
 				610A810528F2C21E009FFF9C /* SwiftUIDemo.entitlements */,
 				610A810628F2C21E009FFF9C /* Preview Content */,
@@ -67,6 +93,35 @@
 				610A810728F2C21E009FFF9C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		61D9256A28FC187A00AD4748 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				610A810128F2C21B009FFF9C /* ContentView.swift */,
+				61D9256228FBFDFC00AD4748 /* BackgroundView.swift */,
+				61D9256828FC182800AD4748 /* WelcomeView.swift */,
+				61D9256628FC155900AD4748 /* DemoView.swift */,
+				61D925972904AC6600AD4748 /* Demos.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		61D9256B28FC188B00AD4748 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				61D9256428FC0D1600AD4748 /* Shimmer.swift */,
+				61D925922901E0B700AD4748 /* WebView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		61D925942901E30D00AD4748 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61D925952901E32400AD4748 /* DemoClass.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +140,13 @@
 			dependencies = (
 			);
 			name = SwiftUIDemo;
+			packageProductDependencies = (
+				61D9256D28FE021D00AD4748 /* Splash */,
+				61D9256F28FE021D00AD4748 /* SplashHTMLGen */,
+				61D9257128FE021D00AD4748 /* SplashImageGen */,
+				61D9257328FE021D00AD4748 /* SplashMarkdown */,
+				61D9257528FE021D00AD4748 /* SplashTokenizer */,
+			);
 			productName = SwiftUIDemo;
 			productReference = 610A80FC28F2C21B009FFF9C /* SwiftUIDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +175,9 @@
 				Base,
 			);
 			mainGroup = 610A80F328F2C21B009FFF9C;
+			packageReferences = (
+				61D9256C28FE021D00AD4748 /* XCRemoteSwiftPackageReference "Splash" */,
+			);
 			productRefGroup = 610A80FD28F2C21B009FFF9C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D9256328FBFDFC00AD4748 /* BackgroundView.swift in Sources */,
+				61D9256928FC182800AD4748 /* WelcomeView.swift in Sources */,
+				61D9256528FC0D1600AD4748 /* Shimmer.swift in Sources */,
 				610A810228F2C21B009FFF9C /* ContentView.swift in Sources */,
+				61D925982904AC6700AD4748 /* Demos.swift in Sources */,
+				61D9256728FC155900AD4748 /* DemoView.swift in Sources */,
+				61D925962901E32400AD4748 /* DemoClass.swift in Sources */,
 				610A810028F2C21B009FFF9C /* SwiftUIDemoApp.swift in Sources */,
+				61D925932901E0B700AD4748 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +359,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ihaze.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,7 +399,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ihaze.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -354,6 +430,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		61D9256C28FE021D00AD4748 /* XCRemoteSwiftPackageReference "Splash" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JohnSundell/Splash";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		61D9256D28FE021D00AD4748 /* Splash */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61D9256C28FE021D00AD4748 /* XCRemoteSwiftPackageReference "Splash" */;
+			productName = Splash;
+		};
+		61D9256F28FE021D00AD4748 /* SplashHTMLGen */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61D9256C28FE021D00AD4748 /* XCRemoteSwiftPackageReference "Splash" */;
+			productName = SplashHTMLGen;
+		};
+		61D9257128FE021D00AD4748 /* SplashImageGen */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61D9256C28FE021D00AD4748 /* XCRemoteSwiftPackageReference "Splash" */;
+			productName = SplashImageGen;
+		};
+		61D9257328FE021D00AD4748 /* SplashMarkdown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61D9256C28FE021D00AD4748 /* XCRemoteSwiftPackageReference "Splash" */;
+			productName = SplashMarkdown;
+		};
+		61D9257528FE021D00AD4748 /* SplashTokenizer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61D9256C28FE021D00AD4748 /* XCRemoteSwiftPackageReference "Splash" */;
+			productName = SplashTokenizer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 610A80F428F2C21B009FFF9C /* Project object */;
 }
