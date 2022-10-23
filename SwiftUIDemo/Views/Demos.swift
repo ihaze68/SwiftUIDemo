@@ -261,7 +261,6 @@ struct Demo5View: View {
                     Text( id )
                 }
             }
-
         }
     }
     func upIndex( _ idx: String ) {

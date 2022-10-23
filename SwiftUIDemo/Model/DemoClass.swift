@@ -217,7 +217,7 @@ struct ContentView: View {
             ),
         
         Demo(title: "Stacks",
-             subTitle: "Boxing thhings",
+             subTitle: "Boxing things",
              icon: "rectangle.split.3x1",
              description:
 """
@@ -874,7 +874,7 @@ struct Demo9View: View {
             ),
         
         Demo(title: "Data flow",
-             subTitle: "How flows",
+             subTitle: "How data flows",
              icon: "arrow.clockwise.circle",
              description:
 """
@@ -1104,7 +1104,7 @@ When Apple decided to create from scratch a new declarative framework for the us
              demoView: nil
             ),
 
-        Demo(title: "Concurency",
+        Demo(title: "Concurrency",
              subTitle: "Do things asynch/parallel",
              icon: "repeat.1.circle.fill",
              description:
