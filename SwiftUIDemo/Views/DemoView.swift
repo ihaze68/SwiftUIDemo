@@ -131,7 +131,7 @@ struct DemoPresentationView: View {
     var body: some View {
         ScrollView(.vertical) {
             // title
-            DisclosureGroup( selectedDemo?.subTitle ?? "N/A", isExpanded: $isHeaderOpen) {
+            DisclosureGroup(isExpanded: $isHeaderOpen) {
                 VStack(alignment: .leading) {
                     // Native support for markdown
                     let markdownText = LocalizedStringKey( selectedDemo?.description ?? "No description" )
@@ -148,8 +148,12 @@ struct DemoPresentationView: View {
                 .background(Color(uiColor: UIColor.systemBackground), in: RoundedRectangle(cornerRadius: 12))
                 .bold(false)
                 .padding(.top)
+            } label: {
+                Label( selectedDemo?.subTitle ?? "N/A", systemImage: selectedDemo?.icon ?? "")
+                    .symbolRenderingMode(.palette)
+                    .foregroundStyle( .red, .green, .yellow )
+                    .bold()
             }
-            .bold()
             .padding()
             .background(.thinMaterial, in: RoundedRectangle(cornerRadius: 12))
             .sheet(isPresented: $showBrowser) {
