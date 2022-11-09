@@ -56,7 +56,7 @@ class DemoClass : ObservableObject {
 """
 **SwiftUI** is a new way to build user interfaces for apps on Apple platforms. It allows developers to define the UI using Swift code.
              
-**Difference between Sift and SwiftUI**
+**Difference between Swift and SwiftUI**
 Swift is an imperative programming language. SwiftUI, however, is proudly claimed as a declarative UI framework that lets developers create UI in a declarative way.
 
 [⌘ Apple documentation](https://developer.apple.com/xcode/swiftui/)
